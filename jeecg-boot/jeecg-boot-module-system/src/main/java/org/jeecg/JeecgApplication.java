@@ -3,8 +3,11 @@ package org.jeecg;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.env.Environment;
+import org.springframework.scheduling.annotation.EnableAsync;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.net.InetAddress;
@@ -12,8 +15,14 @@ import java.net.UnknownHostException;
 
 @Slf4j
 @EnableSwagger2
+@EnableAsync
 @SpringBootApplication
-public class JeecgApplication {
+public class JeecgApplication extends SpringBootServletInitializer {
+
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        return application.sources(JeecgApplication.class);
+    }
 
     public static void main(String[] args) throws UnknownHostException {
         //System.setProperty("spring.devtools.restart.enabled", "true");

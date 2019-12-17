@@ -5,7 +5,10 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.jeecg.common.api.vo.Result;
+import org.jeecg.common.aspect.annotation.AutoLog;
 import org.jeecg.common.system.query.QueryGenerator;
 import org.jeecg.modules.demo.test.entity.JeecgOrderCustomer;
 import org.jeecg.modules.demo.test.entity.JeecgOrderMain;
@@ -39,6 +42,7 @@ import lombok.extern.slf4j.Slf4j;
  * @Version: v1.0
  */
 @Slf4j
+@Api(tags="Demo2测试111111111111111")
 @RestController
 @RequestMapping("/test/order")
 public class JeecgOrderDMainController {
@@ -186,6 +190,8 @@ public class JeecgOrderDMainController {
      * @param mainId
      * @return
      */
+    @AutoLog(value = "Demo2测试-分页列表查询")
+    @ApiOperation(value="Demo2测试-分页列表查询", notes="Demo2测试-分页列表查询")
     @GetMapping(value = "/listOrderCustomerByMainId")
     public Result<List<JeecgOrderCustomer>> queryOrderCustomerListByMainId(@RequestParam(name = "mainId", required = false) String mainId) {
         Result<List<JeecgOrderCustomer>> result = new Result<List<JeecgOrderCustomer>>();

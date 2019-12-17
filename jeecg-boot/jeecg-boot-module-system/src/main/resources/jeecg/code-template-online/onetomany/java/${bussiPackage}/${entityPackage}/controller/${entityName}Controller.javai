@@ -1,4 +1,4 @@
-package ${bussiPackage}.${entityPackage}.controller;
+package ${bussiPackage}.${entityPackage}.test;
 
 import java.io.UnsupportedEncodingException;
 import java.io.IOException;

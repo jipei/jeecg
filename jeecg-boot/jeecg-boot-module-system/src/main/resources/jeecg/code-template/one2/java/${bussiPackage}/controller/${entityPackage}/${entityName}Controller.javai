@@ -1,4 +1,4 @@
-package ${bussiPackage}.controller.${entityPackage};
+package ${bussiPackage}.test.${entityPackage};
 
 import java.util.Arrays;
 import java.util.List;

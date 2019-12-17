@@ -89,6 +89,8 @@ public class ShiroConfig {
 
 
 		filterChainDefinitionMap.put("/test/jeecgDemo/demo3", "anon"); //模板测试
+		filterChainDefinitionMap.put("/test/jeecgDemo/hello", "anon"); //模板测试
+		filterChainDefinitionMap.put("/test/jeecgDemo2/hello", "anon"); //模板测试
 		filterChainDefinitionMap.put("/test/jeecgDemo/redisDemo/**", "anon"); //redis测试
 		
 

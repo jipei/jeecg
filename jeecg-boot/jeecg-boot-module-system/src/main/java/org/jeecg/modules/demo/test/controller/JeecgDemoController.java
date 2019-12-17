@@ -17,6 +17,7 @@ import org.jeecg.common.system.query.QueryGenerator;
 import org.jeecg.common.util.DateUtils;
 import org.jeecg.common.util.RedisUtil;
 import org.jeecg.modules.demo.test.entity.JeecgDemo;
+import org.jeecg.modules.demo.test.mapper.JeecgDemoMapper;
 import org.jeecg.modules.demo.test.service.IJeecgDemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -223,7 +224,7 @@ public class JeecgDemoController extends JeecgController<JeecgDemo,IJeecgDemoSer
 	 * 导出excel
 	 * 
 	 * @param request
-	 * @param response
+	 * @param
 	 */
 	@RequestMapping(value = "/exportXls")
 	@PermissionData(pageComponent="jeecg/JeecgDemoList")
@@ -308,6 +309,19 @@ public class JeecgDemoController extends JeecgController<JeecgDemo,IJeecgDemoSer
 		log.info("--------------test--------------");
 		modelAndView.addObject("userList", userList);
 		return modelAndView;
+	}
+
+	private JeecgDemoMapper jeecgDemoMapper;
+
+	@ApiOperation(value = "hello", notes = "hello")
+	@GetMapping(value = "/hello")
+	public Result<String> hello() {
+		Result<String> result = new Result<String>();
+		result.setResult("Hello World!");
+		result.setSuccess(true);
+		//JeecgDemoController2.hello();
+		JeecgDemo jeecgDemo = jeecgDemoMapper.selectById("08375a2dff80e821d5a158dd98302b23");
+		return result;
 	}
 
 	// ================================================================================================================

@@ -45,7 +45,8 @@ public class TestWebController {
             throw new UnauthorizedException();
         }
     }
- 
+
+
     @GetMapping("/article")
     public ResponseBean article() {
         Subject subject = SecurityUtils.getSubject();

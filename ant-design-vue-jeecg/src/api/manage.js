@@ -10,6 +10,15 @@ const api = {
 
 export default api
 
+//get 塔罗牌
+export function taluo(url,parameter) {
+  return axios({
+    url: url,
+    method: 'get',
+    params: parameter
+  })
+}
+
 //post
 export function postAction(url,parameter) {
   return axios({

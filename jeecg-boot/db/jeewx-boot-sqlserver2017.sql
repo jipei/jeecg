@@ -4973,7 +4973,7 @@ GO
 INSERT INTO [dbo].[sys_log]  VALUES (N'04f97d7f906c1e97384a94f3728606a4', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-03-11 12:08:51.0000000', NULL, NULL)
 GO
 
-INSERT INTO [dbo].[sys_log]  VALUES (N'055cf35c8865761b479c7f289dc36616', N'2', N'添加测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.controller.JeecgDemoController.add()', NULL, N'[{"createBy":"admin","createTime":1547912238787,"email":"zhangdaiscott@163.com","id":"c2c0d49e3c01913067cf8d1fb3c971d2","name":"zhang daihao"}]', NULL, N'16', N'admin', N'2019-01-19 23:37:18.0000000', NULL, NULL)
+INSERT INTO [dbo].[sys_log]  VALUES (N'055cf35c8865761b479c7f289dc36616', N'2', N'添加测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.test.JeecgDemoController.add()', NULL, N'[{"createBy":"admin","createTime":1547912238787,"email":"zhangdaiscott@163.com","id":"c2c0d49e3c01913067cf8d1fb3c971d2","name":"zhang daihao"}]', NULL, N'16', N'admin', N'2019-01-19 23:37:18.0000000', NULL, NULL)
 GO
 
 INSERT INTO [dbo].[sys_log]  VALUES (N'056dd4466f4ed51de26c535fd9864828', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-04-11 19:47:15.0000000', NULL, NULL)
@@ -5000,7 +5000,7 @@ GO
 INSERT INTO [dbo].[sys_log]  VALUES (N'07132c1228b1c165f62ea35f4ff1cbe9', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-02-19 18:15:44.0000000', NULL, NULL)
 GO
 
-INSERT INTO [dbo].[sys_log]  VALUES (N'07a0b3f8b4140a7a586305c2f40a2310', N'2', N'删除测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.controller.JeecgDemoController.delete()', NULL, N'["7eac655877842eb39dc2f0469f3964ec"]', NULL, N'14', N'admin', N'2019-01-19 15:38:11.0000000', NULL, NULL)
+INSERT INTO [dbo].[sys_log]  VALUES (N'07a0b3f8b4140a7a586305c2f40a2310', N'2', N'删除测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.test.JeecgDemoController.delete()', NULL, N'["7eac655877842eb39dc2f0469f3964ec"]', NULL, N'14', N'admin', N'2019-01-19 15:38:11.0000000', NULL, NULL)
 GO
 
 INSERT INTO [dbo].[sys_log]  VALUES (N'0819ea9729ddf70f64ace59370a62cf1', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-04-02 18:59:43.0000000', NULL, NULL)
@@ -5096,7 +5096,7 @@ GO
 INSERT INTO [dbo].[sys_log]  VALUES (N'11f511eeeb2e91af86b9d5e05132fc89', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-02-26 15:13:43.0000000', NULL, NULL)
 GO
 
-INSERT INTO [dbo].[sys_log]  VALUES (N'122edcafd54dd06e12838f41123d9d5d', N'2', N'添加测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.controller.JeecgDemoController.add()', NULL, N'[{"age":28,"birthday":1546617600000,"createBy":"admin","createTime":1547901234989,"id":"42c08b1a2e5b2a96ffa4cc88383d4b11","name":"秦500","punchTime":1546691611000}]', NULL, N'21387', N'admin', N'2019-01-19 20:34:11.0000000', NULL, NULL)
+INSERT INTO [dbo].[sys_log]  VALUES (N'122edcafd54dd06e12838f41123d9d5d', N'2', N'添加测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.test.JeecgDemoController.add()', NULL, N'[{"age":28,"birthday":1546617600000,"createBy":"admin","createTime":1547901234989,"id":"42c08b1a2e5b2a96ffa4cc88383d4b11","name":"秦500","punchTime":1546691611000}]', NULL, N'21387', N'admin', N'2019-01-19 20:34:11.0000000', NULL, NULL)
 GO
 
 INSERT INTO [dbo].[sys_log]  VALUES (N'1241cf8e9fd0e28478a07bf755f528c5', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-02-25 10:51:12.0000000', NULL, NULL)
@@ -5681,7 +5681,7 @@ GO
 INSERT INTO [dbo].[sys_log]  VALUES (N'562092eb81561ee0f63be5dd9367d298', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-02-24 22:20:59.0000000', NULL, NULL)
 GO
 
-INSERT INTO [dbo].[sys_log]  VALUES (N'57264fff74c4f857bddf5d766951f3c9', N'2', N'添加测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.controller.JeecgDemoController.add()', NULL, N'[{"createBy":"admin","createTime":1558262155067,"id":"dcb45a2fc661e5cdc341b806e5914873","name":"111","sysOrgCode":"A01"}]', NULL, N'5', N'admin', N'2019-05-19 18:35:55.0000000', NULL, NULL)
+INSERT INTO [dbo].[sys_log]  VALUES (N'57264fff74c4f857bddf5d766951f3c9', N'2', N'添加测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.test.JeecgDemoController.add()', NULL, N'[{"createBy":"admin","createTime":1558262155067,"id":"dcb45a2fc661e5cdc341b806e5914873","name":"111","sysOrgCode":"A01"}]', NULL, N'5', N'admin', N'2019-05-19 18:35:55.0000000', NULL, NULL)
 GO
 
 INSERT INTO [dbo].[sys_log]  VALUES (N'580256f7c7ea658786dba919009451b6', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-02-25 17:39:43.0000000', NULL, NULL)
@@ -5744,7 +5744,7 @@ GO
 INSERT INTO [dbo].[sys_log]  VALUES (N'5f00b5514a11cd2fe240c131e9ddd136', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-03-22 16:30:52.0000000', NULL, NULL)
 GO
 
-INSERT INTO [dbo].[sys_log]  VALUES (N'5f0a5e85efbe9c79645ffc0c15fcee1a', N'2', N'添加测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.controller.JeecgDemoController.add()', NULL, N'[{"createBy":"admin","createTime":1558261833637,"id":"94f78b1c9753dfb1202d731f540666e1","keyWord":"1","name":"1","sysOrgCode":"A01"}]', NULL, N'30', N'admin', N'2019-05-19 18:30:33.0000000', NULL, NULL)
+INSERT INTO [dbo].[sys_log]  VALUES (N'5f0a5e85efbe9c79645ffc0c15fcee1a', N'2', N'添加测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.test.JeecgDemoController.add()', NULL, N'[{"createBy":"admin","createTime":1558261833637,"id":"94f78b1c9753dfb1202d731f540666e1","keyWord":"1","name":"1","sysOrgCode":"A01"}]', NULL, N'30', N'admin', N'2019-05-19 18:30:33.0000000', NULL, NULL)
 GO
 
 INSERT INTO [dbo].[sys_log]  VALUES (N'5f314fc45492d7f90b74d1ca74d1d392', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-02-22 17:45:48.0000000', NULL, NULL)
@@ -6032,7 +6032,7 @@ GO
 INSERT INTO [dbo].[sys_log]  VALUES (N'7b2b322a47e1ce131d71c50b46d7d29e', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-03-06 15:55:20.0000000', NULL, NULL)
 GO
 
-INSERT INTO [dbo].[sys_log]  VALUES (N'7b44138c1b80b67da13b89db756a22b0', N'2', N'添加测试DEMO', NULL, NULL, NULL, N'127.0.0.1', N'org.jeecg.modules.demo.test.controller.JeecgDemoController.add()', NULL, N'[{"createBy":"jeecg-boot","createTime":1553824172062,"id":"5fce01cb7f0457746c97d8ca05628f81","name":"1212"}]', NULL, N'25', N'jeecg-boot', N'2019-03-29 09:49:32.0000000', NULL, NULL)
+INSERT INTO [dbo].[sys_log]  VALUES (N'7b44138c1b80b67da13b89db756a22b0', N'2', N'添加测试DEMO', NULL, NULL, NULL, N'127.0.0.1', N'org.jeecg.modules.demo.test.test.JeecgDemoController.add()', NULL, N'[{"createBy":"jeecg-boot","createTime":1553824172062,"id":"5fce01cb7f0457746c97d8ca05628f81","name":"1212"}]', NULL, N'25', N'jeecg-boot', N'2019-03-29 09:49:32.0000000', NULL, NULL)
 GO
 
 INSERT INTO [dbo].[sys_log]  VALUES (N'7b85fba62bc001773fff1a54e1609aef', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-02-25 16:28:20.0000000', NULL, NULL)
@@ -6188,7 +6188,7 @@ GO
 INSERT INTO [dbo].[sys_log]  VALUES (N'8ec3a287a37d155047e80a80769d5226', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-01-21 18:37:14.0000000', NULL, NULL)
 GO
 
-INSERT INTO [dbo].[sys_log]  VALUES (N'8f616500d666a5a67bc98e7ccd73c2e2', N'2', N'添加测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.controller.JeecgDemoController.add()', NULL, N'[{"createBy":"admin","createTime":1547912194199,"id":"ffa9da1ad40632dfcabac51d766865bd","name":"秦999"}]', NULL, N'386', N'admin', N'2019-01-19 23:36:34.0000000', NULL, NULL)
+INSERT INTO [dbo].[sys_log]  VALUES (N'8f616500d666a5a67bc98e7ccd73c2e2', N'2', N'添加测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.test.JeecgDemoController.add()', NULL, N'[{"createBy":"admin","createTime":1547912194199,"id":"ffa9da1ad40632dfcabac51d766865bd","name":"秦999"}]', NULL, N'386', N'admin', N'2019-01-19 23:36:34.0000000', NULL, NULL)
 GO
 
 INSERT INTO [dbo].[sys_log]  VALUES (N'8fde5f89e8ad30cf3811b8683a9a77b1', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-03-17 18:02:41.0000000', NULL, NULL)
@@ -6278,7 +6278,7 @@ GO
 INSERT INTO [dbo].[sys_log]  VALUES (N'994efef0ebca19292e14a39b385b0e21', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-02-15 16:22:24.0000000', NULL, NULL)
 GO
 
-INSERT INTO [dbo].[sys_log]  VALUES (N'997bb4cb1ad24439b6f7656222af0710', N'2', N'添加测试DEMO', NULL, NULL, NULL, N'127.0.0.1', N'org.jeecg.modules.demo.test.controller.JeecgDemoController.add()', NULL, N'[{"createBy":"jeecg-boot","createTime":1553824768819,"id":"ee84471f0dff5ae88c45e852bfa0280f","keyWord":"22","name":"222"}]', NULL, N'5', N'jeecg-boot', N'2019-03-29 09:59:28.0000000', NULL, NULL)
+INSERT INTO [dbo].[sys_log]  VALUES (N'997bb4cb1ad24439b6f7656222af0710', N'2', N'添加测试DEMO', NULL, NULL, NULL, N'127.0.0.1', N'org.jeecg.modules.demo.test.test.JeecgDemoController.add()', NULL, N'[{"createBy":"jeecg-boot","createTime":1553824768819,"id":"ee84471f0dff5ae88c45e852bfa0280f","keyWord":"22","name":"222"}]', NULL, N'5', N'jeecg-boot', N'2019-03-29 09:59:28.0000000', NULL, NULL)
 GO
 
 INSERT INTO [dbo].[sys_log]  VALUES (N'9a1456ef58a2b1fb63cdc54b723f2539', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-03-28 17:26:39.0000000', NULL, NULL)
@@ -6356,7 +6356,7 @@ GO
 INSERT INTO [dbo].[sys_log]  VALUES (N'a1b870eee811cfa4960f577b667b0973', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-04-01 18:23:44.0000000', NULL, NULL)
 GO
 
-INSERT INTO [dbo].[sys_log]  VALUES (N'a22ddd4b5b0b84bd7794edd24b25fc64', N'2', N'添加测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.controller.JeecgDemoController.add()', NULL, N'[{"createBy":"admin","createTime":1547883299809,"email":"zhangdaiscott@163.com","id":"7eac655877842eb39dc2f0469f3964ec","name":"zhang daihao"}]', NULL, N'25', N'admin', N'2019-01-19 15:34:59.0000000', NULL, NULL)
+INSERT INTO [dbo].[sys_log]  VALUES (N'a22ddd4b5b0b84bd7794edd24b25fc64', N'2', N'添加测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.test.JeecgDemoController.add()', NULL, N'[{"createBy":"admin","createTime":1547883299809,"email":"zhangdaiscott@163.com","id":"7eac655877842eb39dc2f0469f3964ec","name":"zhang daihao"}]', NULL, N'25', N'admin', N'2019-01-19 15:34:59.0000000', NULL, NULL)
 GO
 
 INSERT INTO [dbo].[sys_log]  VALUES (N'a28de45f52c027a3348a557efab6f430', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-03-19 10:34:26.0000000', NULL, NULL)
@@ -6410,7 +6410,7 @@ GO
 INSERT INTO [dbo].[sys_log]  VALUES (N'a69f4ff4e48754de96ae6fa4fabc1579', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-04-02 09:18:48.0000000', NULL, NULL)
 GO
 
-INSERT INTO [dbo].[sys_log]  VALUES (N'a6c3b28530416dace21371abe8cae00b', N'2', N'删除测试DEMO', NULL, NULL, NULL, N'127.0.0.1', N'org.jeecg.modules.demo.test.controller.JeecgDemoController.delete()', NULL, N'["ee84471f0dff5ae88c45e852bfa0280f"]', NULL, N'9', N'jeecg-boot', N'2019-03-29 09:59:48.0000000', NULL, NULL)
+INSERT INTO [dbo].[sys_log]  VALUES (N'a6c3b28530416dace21371abe8cae00b', N'2', N'删除测试DEMO', NULL, NULL, NULL, N'127.0.0.1', N'org.jeecg.modules.demo.test.test.JeecgDemoController.delete()', NULL, N'["ee84471f0dff5ae88c45e852bfa0280f"]', NULL, N'9', N'jeecg-boot', N'2019-03-29 09:59:48.0000000', NULL, NULL)
 GO
 
 INSERT INTO [dbo].[sys_log]  VALUES (N'a6e323785535592ee208aa7e53554644', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-02-20 09:15:27.0000000', NULL, NULL)
@@ -6755,7 +6755,7 @@ GO
 INSERT INTO [dbo].[sys_log]  VALUES (N'ce9893f4d0dd163e900fcd537f2c292d', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-03-25 11:55:55.0000000', NULL, NULL)
 GO
 
-INSERT INTO [dbo].[sys_log]  VALUES (N'cedf399271592c27dcb6f6ce3312e77d', N'2', N'删除测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.controller.JeecgDemoController.delete()', NULL, N'["7501"]', NULL, N'24', N'admin', N'2019-03-06 16:03:13.0000000', NULL, NULL)
+INSERT INTO [dbo].[sys_log]  VALUES (N'cedf399271592c27dcb6f6ce3312e77d', N'2', N'删除测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.test.JeecgDemoController.delete()', NULL, N'["7501"]', NULL, N'24', N'admin', N'2019-03-06 16:03:13.0000000', NULL, NULL)
 GO
 
 INSERT INTO [dbo].[sys_log]  VALUES (N'cf590576a5f6a42b347e6b5bf5ebf5bd', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-02-25 12:43:31.0000000', NULL, NULL)
@@ -6842,13 +6842,13 @@ GO
 INSERT INTO [dbo].[sys_log]  VALUES (N'd762a1cba3dc23068f352323d98909e0', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-02-26 22:26:49.0000000', NULL, NULL)
 GO
 
-INSERT INTO [dbo].[sys_log]  VALUES (N'd7902eeab2c34611fad046a79bff1c1b', N'2', N'添加测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.controller.JeecgDemoController.add()', NULL, N'[{"createBy":"admin","createTime":1547883544104,"email":"zhangdaiscott@163.com","id":"4436302a0de50bb83025286bc414d6a9","name":"zhang daihao"}]', NULL, N'1682', N'admin', N'2019-01-19 15:39:05.0000000', NULL, NULL)
+INSERT INTO [dbo].[sys_log]  VALUES (N'd7902eeab2c34611fad046a79bff1c1b', N'2', N'添加测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.test.JeecgDemoController.add()', NULL, N'[{"createBy":"admin","createTime":1547883544104,"email":"zhangdaiscott@163.com","id":"4436302a0de50bb83025286bc414d6a9","name":"zhang daihao"}]', NULL, N'1682', N'admin', N'2019-01-19 15:39:05.0000000', NULL, NULL)
 GO
 
 INSERT INTO [dbo].[sys_log]  VALUES (N'd7e7cb4c21372e48b8e0ec7e679466e3', N'1', N'用户名: null,退出成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-03-25 12:02:34.0000000', NULL, NULL)
 GO
 
-INSERT INTO [dbo].[sys_log]  VALUES (N'd7e8a7f14967c70d68f5569cb4d11d0a', N'2', N'删除测试DEMO', NULL, NULL, NULL, N'127.0.0.1', N'org.jeecg.modules.demo.test.controller.JeecgDemoController.delete()', NULL, N'["5fce01cb7f0457746c97d8ca05628f81"]', NULL, N'9', N'jeecg-boot', N'2019-03-29 09:49:39.0000000', NULL, NULL)
+INSERT INTO [dbo].[sys_log]  VALUES (N'd7e8a7f14967c70d68f5569cb4d11d0a', N'2', N'删除测试DEMO', NULL, NULL, NULL, N'127.0.0.1', N'org.jeecg.modules.demo.test.test.JeecgDemoController.delete()', NULL, N'["5fce01cb7f0457746c97d8ca05628f81"]', NULL, N'9', N'jeecg-boot', N'2019-03-29 09:49:39.0000000', NULL, NULL)
 GO
 
 INSERT INTO [dbo].[sys_log]  VALUES (N'd82b170459d99fc05eb8aa1774e1a1c9', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-03-26 18:45:14.0000000', NULL, NULL)
@@ -7034,7 +7034,7 @@ GO
 INSERT INTO [dbo].[sys_log]  VALUES (N'e78f8832d61c1603c17767ee2b78ef07', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-03-01 19:50:03.0000000', NULL, NULL)
 GO
 
-INSERT INTO [dbo].[sys_log]  VALUES (N'e7f2b0a7493e7858c5db1f1595fa54b1', N'2', N'添加测试DEMO', NULL, NULL, NULL, N'127.0.0.1', N'org.jeecg.modules.demo.test.controller.JeecgDemoController.add()', NULL, N'[{"createBy":"jeecg-boot","createTime":1553824376817,"id":"e771211b77cd3b326d3e61edfd9a5a19","keyWord":"222","name":"222"}]', NULL, N'7', N'jeecg-boot', N'2019-03-29 09:52:56.0000000', NULL, NULL)
+INSERT INTO [dbo].[sys_log]  VALUES (N'e7f2b0a7493e7858c5db1f1595fa54b1', N'2', N'添加测试DEMO', NULL, NULL, NULL, N'127.0.0.1', N'org.jeecg.modules.demo.test.test.JeecgDemoController.add()', NULL, N'[{"createBy":"jeecg-boot","createTime":1553824376817,"id":"e771211b77cd3b326d3e61edfd9a5a19","keyWord":"222","name":"222"}]', NULL, N'7', N'jeecg-boot', N'2019-03-29 09:52:56.0000000', NULL, NULL)
 GO
 
 INSERT INTO [dbo].[sys_log]  VALUES (N'e864c0007983211026d6987bd0cd4dc8', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'192.168.1.114', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-03-11 13:37:08.0000000', NULL, NULL)
@@ -7106,7 +7106,7 @@ GO
 INSERT INTO [dbo].[sys_log]  VALUES (N'eeb1f2e2c1b480e0bb62533848cbb176', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-02-24 22:55:46.0000000', NULL, NULL)
 GO
 
-INSERT INTO [dbo].[sys_log]  VALUES (N'eef5b90eea8e7394193443cfd7476529', N'2', N'删除测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.controller.JeecgDemoController.delete()', NULL, N'["dcb45a2fc661e5cdc341b806e5914873"]', NULL, N'9', N'admin', N'2019-05-19 18:36:02.0000000', NULL, NULL)
+INSERT INTO [dbo].[sys_log]  VALUES (N'eef5b90eea8e7394193443cfd7476529', N'2', N'删除测试DEMO', NULL, N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.demo.test.test.JeecgDemoController.delete()', NULL, N'["dcb45a2fc661e5cdc341b806e5914873"]', NULL, N'9', N'admin', N'2019-05-19 18:36:02.0000000', NULL, NULL)
 GO
 
 INSERT INTO [dbo].[sys_log]  VALUES (N'ef54197116da89bf091c0ed58321eea4', N'1', N'用户名: admin,登录成功！', NULL, NULL, NULL, N'127.0.0.1', NULL, NULL, NULL, NULL, NULL, N'jeecg-boot', N'2019-03-09 19:22:06.0000000', NULL, NULL)
