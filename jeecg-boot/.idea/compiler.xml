@@ -12,7 +12,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jeecg-boot-base-common" target="1.8" />
       <module name="jeecg-boot-bb" target="1.8" />
+      <module name="jeecg-boot-jana" target="1.8" />
+      <module name="jeecg-boot-module-system" target="1.8" />
+      <module name="jeecg-boot-parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
